@@ -1,4 +1,4 @@
-package com.awesome.rest;
+package com.main.awesome.rest;
 
 import static org.mockito.Mockito.doReturn;
 import static org.mockito.Mockito.mock;
@@ -17,8 +17,9 @@ import org.springframework.boot.test.mock.mockito.SpyBean;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 
-import com.awesome.customer.Customer;
-import com.awesome.customer.CustomerService;
+import com.core.awesome.customer.Customer;
+import com.core.awesome.customer.CustomerService;
+import com.main.awesome.rest.CustomerController;
 
 @RunWith(SpringRunner.class)
 @WebMvcTest(controllers = CustomerController.class)

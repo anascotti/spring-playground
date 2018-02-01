@@ -1,4 +1,4 @@
-package com.awesome.integration;
+package com.main.awesome.integration;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

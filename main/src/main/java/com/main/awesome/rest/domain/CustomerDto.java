@@ -1,4 +1,4 @@
-package com.awesome.rest.domain;
+package com.main.awesome.rest.domain;
 
 import org.joda.time.LocalDate;
 

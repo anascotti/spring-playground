@@ -1,4 +1,4 @@
-package com.awesome.customer;
+package com.core.awesome.customer;
 
 import java.util.Optional;
 

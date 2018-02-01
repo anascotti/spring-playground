@@ -1,4 +1,4 @@
-package com.awesome.rest;
+package com.main.awesome.rest;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.awesome.customer.Customer;
-import com.awesome.customer.CustomerService;
-import com.awesome.rest.domain.CustomerDto;
+import com.core.awesome.customer.Customer;
+import com.core.awesome.customer.CustomerService;
+import com.main.awesome.rest.domain.CustomerDto;
 
 @RestController
 @RequestMapping(value = "/customers")
