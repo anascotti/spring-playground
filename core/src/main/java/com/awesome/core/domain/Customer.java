@@ -1,4 +1,4 @@
-package com.awesome.core;
+package com.awesome.core.domain;
 
 
 public class Customer {
