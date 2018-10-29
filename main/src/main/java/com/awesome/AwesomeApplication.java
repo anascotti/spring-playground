@@ -1,4 +1,4 @@
-package com.main.awesome;
+package com.awesome;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
