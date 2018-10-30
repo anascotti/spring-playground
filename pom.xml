@@ -10,9 +10,24 @@
     <properties>
         <java.version>11</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <spring.boot.version>2.0.6.RELEASE</spring.boot.version>
+        <spring.boot.version>2.1.0.M4</spring.boot.version>
     </properties>
 
+    <repositories>
+        <repository>
+            <id>spring-milestones</id>
+            <name>Spring milestones</name>
+            <url>https://repo.spring.io/libs-milestone/</url>
+        </repository>
+    </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>spring-plugins-milestones</id>
+            <name>Spring milestones</name>
+            <url>https://repo.spring.io/libs-milestone/</url>
+
+        </pluginRepository>
+    </pluginRepositories>
 
     <dependencyManagement>
         <dependencies>
@@ -51,6 +66,7 @@
                     <artifactId>maven-compiler-plugin</artifactId>
                     <version>3.8.0</version>
                     <configuration>
+
                         <source>${java.version}</source>
                         <target>${java.version}</target>
                     </configuration>
