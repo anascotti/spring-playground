@@ -22,10 +22,6 @@
             <!-- Split packages exclusions-->
             <exclusions>
                 <exclusion>
-                    <groupId>ch.qos.logback</groupId>
-                    <artifactId>logback-classic</artifactId>
-                </exclusion>
-                <exclusion>
                     <groupId>org.skyscreamer</groupId>
                     <artifactId>jsonassert</artifactId>
                 </exclusion>
@@ -46,6 +42,10 @@
                     <artifactId>jsonassert</artifactId>
                 </exclusion>
             </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
         </dependency>
 
     </dependencies>
