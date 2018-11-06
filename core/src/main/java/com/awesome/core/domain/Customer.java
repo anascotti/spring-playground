@@ -3,24 +3,28 @@ package com.awesome.core.domain;
 
 public class Customer {
 
-    public Customer(Long id, String ssn, String name) {
+    protected Customer(Long id, String ssn, String name) {
      this.id = id;
      this.ssn = ssn;
      this.name = name;
     }
 
-    private Long id;
+    protected Long id;
 
-    private String ssn;
+    protected String ssn;
 
-    private String name;
+    protected String name;
+
+    public String getSsn() {
+        return ssn;
+    }
+
+    public String getName() {
+        return name;
+    }
 
     public Long getId() {
         return id;
-    }
-    public String getSsn() { return ssn; }
-    public String getName() {
-        return name;
     }
 
     @Override
