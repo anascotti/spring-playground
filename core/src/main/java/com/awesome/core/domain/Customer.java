@@ -9,23 +9,12 @@ public class Customer {
      this.name = name;
     }
 
-    protected Long id;
+    public final Long id;
 
-    protected String ssn;
+    public final String ssn;
 
-    protected String name;
+    public final String name;
 
-    public String getSsn() {
-        return ssn;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public Long getId() {
-        return id;
-    }
 
     @Override
     public String toString() {
