@@ -1,8 +1,9 @@
 /.gradle/
-/build/
+/buildSrc/
 /bin/
 target/
 
+.java-version
 .classpath
 .factorypath
 .project

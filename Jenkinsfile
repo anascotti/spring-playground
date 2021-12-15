@@ -1,13 +1,11 @@
 pipeline {
     agent any
     tools {
-        jdk "JDK9"
-        maven "mvn-3.5.2"
+        jdk "JDK17"
     }
     stages {
         stage('build') {
             steps {
-                sh 'mvn clean install'
             }
         }
     }
